@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.app-container {
+  height: 100vh;
+  background-color: #93c5fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.question-container {
+  width: 50%;
+  height: 50%;
+  background-color: white;
+  border: none;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 70px;
+  font-family: Roboto;
+}
+.capital-select-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+.question-text {
+  margin-left: 20px;
+}
+.capital-select {
+  border-color: #cbd2d9;
+  border-radius: 4px;
+  width: 100px;
+  height: 30px;
+  outline: none;
+}
+.capital-option {
+  font-family: Roboto;
+}
